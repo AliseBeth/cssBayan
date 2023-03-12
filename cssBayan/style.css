@@ -1,0 +1,310 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+@media (min-width: 1920px) {
+    main {
+        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(255, 255, 255);
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .all {
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(249, 241, 241);
+    }
+    .all:hover .container {
+        color: #000000;
+        cursor: pointer;
+    }
+    .all:hover .plus-img {
+            width: 15px;
+            height: 15px;
+        }
+    
+    .frog-img {
+        width: 0px;  
+        margin-left: auto; 
+        margin-right: auto;    
+    }
+    h1 {
+        font-size: 60px;
+        font-weight: 800;
+        padding-left: 50px;
+    }
+    h2 {
+        font-size: 30px;
+        font-weight: 700;
+        padding-left: 25px;
+    }
+    .symbol {
+        display: flex; 
+        padding-right: 25px;
+    }
+    .cross-img {
+        width: 0;
+    }
+    .plus-img {
+        width: 0px;    
+    }
+    .container-bayan {
+        padding-bottom: 30px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(153, 54, 0);
+        padding-bottom: 15px;    
+    }
+    .section-name {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 60px;
+        border-top: 1px solid #000000;
+        width: 900px;
+    }
+    .container:hover .frog-img {
+        width: 400px;  
+        margin-left: auto; 
+        margin-right: auto; 
+        transition: 0.5s all;
+    }
+    .container:hover .cross-img {
+        width: 15px;
+        height: 15px;
+    }
+    .container:hover .plus-img {
+        width: 0px;  
+    }
+    input:checked ~ .section-name{
+        color: rgb(153, 54, 0);
+    }
+    input:checked ~ .frog-img {
+        width: 400px;  
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    input {
+        margin-right: 99999px;
+        height: 0px;
+    }
+}
+
+
+
+
+@media (min-width: 820px) and (max-width: 1919px){
+    main {
+        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(255, 255, 255);
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .all {
+        display: flex;
+        flex-direction: column;
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(249, 241, 241);
+    }
+    .all:hover .container {
+        color: #000000;
+        cursor: pointer;
+    }
+    .all:hover .plus-img {
+            width: 15px;
+            height: 15px;
+        }
+    
+    .frog-img {
+        width: 0px;  
+        margin-left: auto; 
+        margin-right: auto;    
+    }
+    h1 {
+        font-size: 60px;
+        font-weight: 800;
+        padding-left: 20px;
+    }
+    h2 {
+        font-size: 30px;
+        font-weight: 700;
+        padding-left: 18px;
+    }
+    .symbol {
+        display: flex; 
+        padding-right: 18px;
+    }
+    .cross-img {
+        width: 0;
+    }
+    .plus-img {
+        width: 0px;    
+    }
+    .container-bayan {
+        padding-bottom: 18px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(153, 54, 0);
+        padding-bottom: 15px;    
+    }
+    .section-name {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 60px;
+        border-top: 1px solid #000000;
+        width: 700px;
+    }
+    .container:hover .frog-img {
+        width: 400px;  
+        margin-left: auto; 
+        margin-right: auto; 
+        transition: 0.5s all;
+    }
+    .container:hover .cross-img {
+        width: 15px;
+        height: 15px;
+    }
+    .container:hover .plus-img {
+        width: 0px;  
+    }
+    input:checked ~ .section-name{
+        color: rgb(153, 54, 0);
+    }
+    input:checked ~ .frog-img {
+        width: 400px;  
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    input {
+        margin-right: 99999px;
+        height: 0px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 819px){
+    main {
+        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(255, 255, 255);
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .all {
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(249, 241, 241);
+    }
+    .all:hover .container {
+        color: #000000;
+    }
+    .all:hover .plus-img {
+            width: 10px;
+            height: 10px;
+        }
+    
+    .frog-img {
+        width: 0px;  
+        margin-left: auto; 
+        margin-right: auto;    
+    }
+    h1 {
+        font-size: 20px;
+        font-weight: 800;
+        padding-left: 4px;
+    }
+    h2 {
+        font-size: 13px;
+        font-weight: 700;
+        padding-left: 4px;
+    }
+    .symbol {
+        display: flex; 
+        padding-right: 10px;
+    }
+    .cross-img {
+        width: 0px;
+    }
+    .plus-img {
+        width: 0px;    
+    }
+    .container-bayan {
+        padding-bottom: 6px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(153, 54, 0);
+        padding-bottom: 15px;    
+    }
+    .section-name {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 20px;
+        border-top: 1px solid #000000;
+        width: 270px;
+    }
+    .container:hover .frog-img {
+        width: 150px;  
+        margin-left: auto; 
+        margin-right: auto; 
+        transition: 0.5s all;
+    }
+    .container:hover .cross-img {
+        width: 10px;
+        height: 10px;
+    }
+    .container:hover .plus-img {
+        width: 0px;  
+    }
+    input:checked ~ .section-name{
+        color: rgb(153, 54, 0);
+    }
+    input:checked ~ .frog-img {
+        width: 150px;  
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    input {
+        margin-right: 99999px;
+        height: 0px;
+    }
+}
